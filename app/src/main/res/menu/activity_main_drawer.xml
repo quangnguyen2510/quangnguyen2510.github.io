@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/ic_baseline_food_bank_24"
+            android:title="@string/menu_food" />
+        <item
+            android:id="@+id/nav_beverage"
+            android:icon="@drawable/ic_baseline_emoji_food_beverage_24"
+            android:title="@string/menu_beverage" />
+        <item
+            android:id="@+id/nav_cream"
+            android:icon="@drawable/icecreamcone"
+            android:title="@string/menu_cream" />
+    </group>
+</menu>
